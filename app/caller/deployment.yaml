@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: minimal-curl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: minimal-curl
+  template:
+    metadata:
+      labels:
+        app: minimal-curl
+    spec:
+      containers:
+        - name: minimal-curl
+          image: minimal-curl:latest
+          ports:
+            - containerPort: 80
+          imagePullPolicy: Never
+          command: ["ash"]
+          stdin: true
+          tty: true

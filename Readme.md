@@ -18,7 +18,7 @@ This is work in progress so more items will show up.
 
 ## The cluster
 
-Given that this exercise is focused on the Kubernetes API's (mostly on `kubectl`), the choice of the cluster implementation is not very relevant. In my personal case I used [k3s](https://k3s.io/) as the distribution, as it is a lightweight and easy to install distribution that doesn't take up too much resources to run. For the container runtime I used [docker](https://www.docker.com/), as it is something that I already use on my daily life.
+Given that this exercise is focused on the Kubernetes API's (mostly on `kubectl` and the resources API's), the choice of the cluster implementation is not very relevant. In my personal case I used [k3s](https://k3s.io/) as the distribution, as it is a lightweight and easy to install distribution that doesn't take up too much resources to run. For the container runtime I used [docker](https://www.docker.com/), as it is something that I already use on my daily life.
 
 
 ## The goals
@@ -38,6 +38,7 @@ Here I will describe some of the milestones that I want to reach as part of this
 - [ ] Set up a **load balancer** for the api.
 - [ ] Set up a **horizontal pod autoscaler** for the api.
 - [ ] Stress test the api and see how the cluster responds.
+- [ ] Add Helm.
 - etc
 
 

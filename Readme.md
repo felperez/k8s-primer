@@ -48,3 +48,4 @@ Some extra comments regarding some of the points above:
 
 1. For the ingress controller I have obscured the domain that I use to expose the service for privacy reasons.
 2. For the api implementation I have used the absolute minimum code that I could in order to have a working service. Don't expect anything fancy.
+3. To make the ingress work directing the trafic from the domain to the machine running the cluster, a forwarding rule had to be put in place at the router level.

@@ -32,7 +32,7 @@ Here I will describe some of the milestones that I want to reach as part of this
 - [x] Create a **service** for the app endpoint, and call it from the pod that can use `curl`.
 - [x] Create a **service account** that allows to access the kubernetes dashboard.
 - [x] Create an **ingress** that allows accessing the endpoint from outside the cluster.
-- [ ] Create a cronjob that periodically reaches the api from the caller.
+- [X] Create a cronjob that periodically reaches the api from the caller.
 - [ ] Add a secret for handling the authentication to the api.
 - [ ] Add a volume to store logs.
 - [ ] Set up a **load balancer** for the api.
